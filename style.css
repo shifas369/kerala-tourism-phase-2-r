@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ #logo{
+  margin-left: 5%;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  height: 5rem;
+}
+#navbar{
+  position: sticky;
+  top: 0;
+}
+.collapse{
+  font-size:large ;
+  
+  
+}
+.nav-item a{
+  
+  padding: 10px;
+  margin: 5px;
+}
+.collapse >ul>li>a:hover{
+  background-color: beige;
+  
+  color: black !important;
+}
+#image{
+  height: 22rem;
+}
+#h1{
+  text-align: center;
+  color:  blueviolet;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 50px;
+  text-decoration: underline;
+  
+}
+video{
+  
+  height: 25rem;
+  margin-right: 5px;
+  
+  margin-left: 10px; 
+
+} 
+.card{
+  background-color: blanchedalmond;
+}
+.card1{
+  background-color: paleturquoise;
+  margin-top: 10px;
+}
+
+
+
+.strength{
+  width: 25%;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  bottom: 5px;
+}
+#strength-bar{
+  background-color: #dcdcdc;
+  height: 10px;
+  position: relative;
+}
+.error
+{
+color: red;
+size: 80%
+}
+.hidden
+{
+display:none;
+}
